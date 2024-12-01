@@ -24,7 +24,7 @@ void root1(float a,float b,float c,float* x,float* r,float* i)
         }
         else
         {
-         *x = (-b - sqrt(temp))/2*a;
+         *x = (-b + sqrt(temp))/2*a;
          
         }
     }
